@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <meta charset="utf-8" />
+        <title>@ViewData["Title"]</title>
+        <link rel="shortcut icon" type="image/jpg" href="img\20210709_184402.jpg" />
+        <link href="~/css/default.css" rel="stylesheet" />
+        <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    </head>
+    <body>
+
+
+        <nav>
+            <a asp-controller="Calc" asp-action="Index">Home</a>
+            <a asp-controller="Calc" asp-action="Calculator">Calculator</a>
+        </nav>
+
+        <div>
+            @RenderBody()
+        </div>
+
+        <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="~/lib/jquery/jquery-3.6.3.min.js"></script>
+        <script src="~/js/GradeCalculator.js"></script>
+    </body>
+
+    <footer>Footer displays down here</footer>
+</html>

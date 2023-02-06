@@ -28,3 +28,9 @@ input {
     margin-right: auto;
     width: 50%;
 }
+
+nav {
+    text-align:center;
+    background-color: lightgray;
+    
+}
