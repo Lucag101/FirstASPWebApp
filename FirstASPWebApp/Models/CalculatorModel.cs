@@ -8,6 +8,9 @@ namespace FirstASPWebApp.Models
 {
     public class CalculatorModel
     {
+        // should recieve all values from Calculator, and set them against 1-100 parameters
+        // send back if the inputs are outside of 1-100 or empty
+        
         [Required]
         [Range(0, 100, ErrorMessage = "Asignments must be between 0 and 100")]
         public string asignments { get; set; }
